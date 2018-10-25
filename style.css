@@ -1,0 +1,99 @@
+.row {
+    padding-top:20px;
+  }
+  
+  h2 {
+    font-size:22px !important;
+  }
+  
+  .intro {
+    text-align:right;
+  }
+  
+  .about-me {
+    background-color:#05a8aa;
+    width:150px;
+    text-align:center;
+    color:white;
+    border-radius:20px 0px 0px 20px;
+    padding-top:10px;
+  }
+  
+  .text-1 {
+    border-bottom: 2px solid #05a8aa;
+    padding-top:10px;
+  }
+    
+  .my-projects {
+    background-color:#f46036;
+    width:150px;
+    text-align:center;
+    color:white;
+    border-radius:20px 0px 0px 20px;
+    padding-top:10px;
+  }
+  
+  .text-2 {
+    border-bottom: 2px solid #f46036;
+    padding-top:10px;
+  }
+    
+  .contact {
+    background-color:#a6b727;
+    width:150px;
+    text-align:center;
+    color:white;
+    border-radius:20px 0px 0px 20px;
+    padding-top:10px;
+  }
+  
+  .text-3 {
+    border-bottom: 2px solid #a6b727;
+    padding-top:10px;
+  }
+  
+  @media (max-width:768px) {
+    .intro {
+      display:none;
+    }
+  }
+  
+  @media (max-width:991px) {
+    
+    .about-me {
+      border-radius:20px 20px 20px 20px;
+      width:100%;
+    }
+
+    .text-1 {
+        border-bottom:none;
+        padding-top:20px;
+    }
+
+    .my-projects {
+      border-radius:20px 20px 20px 20px;
+      width:100%;
+    }
+
+    .text-2 {
+        border-bottom:none;
+        padding-top:20px;
+    }
+
+    .contact {
+      border-radius:20px 20px 20px 20px;
+      width:100%;
+    }
+
+    .text-3 {
+        border-bottom:none;
+        padding-top:20px;
+    }
+    
+  }
+  
+  
+  
+  
+  
+  

@@ -2,12 +2,15 @@
     padding-top:20px;
   }
   
-  h2 {
-    font-size:22px !important;
-  }
+  h1 {
+    font-size:25px !important;
+    margin-top:0px;
+    font-family: 'Amaranth', sans-serif;
+    }
   
   .intro {
     text-align:right;
+    font-family: 'Amaranth', sans-serif;
   }
   
   .about-me {
@@ -20,8 +23,11 @@
   }
   
   .text-1 {
-    border-bottom: 2px solid #05a8aa;
+    border-bottom: 4px solid #05a8aa;
+    /*border-top: 1px solid #05a8aa;*/
     padding-top:10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border-radius:0px 20px 20px 0px;
   }
     
   .my-projects {
@@ -34,11 +40,14 @@
   }
   
   .text-2 {
-    border-bottom: 2px solid #f46036;
+    border-bottom: 4px solid #f46036;
+    /*border-top: 1px solid #f46036;*/
     padding-top:10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border-radius:0px 20px 20px 0px;
   }
     
-  .contact {
+  .formacion {
     background-color:#a6b727;
     width:150px;
     text-align:center;
@@ -48,14 +57,40 @@
   }
   
   .text-3 {
-    border-bottom: 2px solid #a6b727;
+    /*border-top: 1px solid #a6b727;*/
+    border-bottom: 4px solid #a6b727;
     padding-top:10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border-radius:0px 20px 20px 0px;
   }
-  
-  @media (max-width:768px) {
-    .intro {
-      display:none;
+
+  .formacion-1 {
+    display: inline;
+  }
+
+  #logo-geekshubs-1, #logo-geekshubs-3 {
+    display:none;
+  }
+
+  #logo-geekshubs-2 {
+    width:100%;
+    height:auto;
+  }
+
+  .contacto {
+    text-align:center;
+  }
+
+  .icono-rrss {
+    width:100px;
+    height:auto;
+    padding:20px;
     }
+
+  .email:hover,.github:hover,.linkedin:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
   }
   
   @media (max-width:991px) {
@@ -80,7 +115,7 @@
         padding-top:20px;
     }
 
-    .contact {
+    .formacion {
       border-radius:20px 20px 20px 20px;
       width:100%;
     }
@@ -88,6 +123,34 @@
     .text-3 {
         border-bottom:none;
         padding-top:20px;
+    }
+
+    #logo-geekshubs-2 {
+      display:none;
+    }
+  
+    #logo-geekshubs-1 {
+      display: inline;
+      width:200px;
+      height:auto;
+    }
+    
+  }
+
+    
+  @media (max-width:768px) {
+    .intro {
+      display:none;
+    }
+
+    #logo-geekshubs-1 {
+      display:none;
+    }
+
+    #logo-geekshubs-3 {
+      display: inline;
+      width:50px;
+      height:auto;
     }
     
   }
